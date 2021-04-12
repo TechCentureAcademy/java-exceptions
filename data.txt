@@ -1,0 +1,3 @@
+some sensitive information here
+another important line 
+hello wolrd

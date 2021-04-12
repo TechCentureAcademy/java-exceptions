@@ -1,0 +1,27 @@
+In Software Development, Exceptions are a common thing. Why do exception happen?
+Sometimes, programs cannot handle unexpected situation like dividing a whole number by zero always throws ArithmeticException
+
+In Java, there is a super class called Throwable. Throwable has two child classes: Error and Exception.
+
+Errors are thrown due to some issues like lack of memory, stack overflow, or some problems with our machines.
+As programmers we cannot handle errors (programmatically). 
+
+
+Exceptions on the other hand, can be handled. As programmers we can do something about our exceptions, we can either
+catch those exceptions or let some body else handle.
+
+Exceptions are of two types:
+1. Unchecked Exceptions: These are runtime exceptions that may be thrown during the run time, and they dont have to be handled
+during the compilation. All unchecked exceptions extend from RuntimeException class:
+Examples of RuntimeException
+1. NullPointerException
+2. StringIndexOutOfBoundException
+3. ArrayIndexOutOfBoundException
+4. ArithmeticException
+5. ClassCastException
+
+2. Checked Exceptions. These exceptions must be handled during the compile time. To handle this, we can either use try catch technique,
+or we can delete the responsibily of handling it to others.
+
+try/catch block is a technique, that is used to catch unexpected exceptions so that our programs can continue smoothly without 
+crashing
